@@ -1,0 +1,7 @@
+# build outputs and local environments (re-created by build.sh)
+**/.venv/
+**/out/
+**/stills/
+**/node_modules/
+bangla-vo/src/voiceover.wav
+__pycache__/

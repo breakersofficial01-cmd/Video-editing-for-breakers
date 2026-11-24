@@ -1,0 +1,17 @@
+বন্দি সবুজ দানা — The Green Prisoner (Breaking Biology)
+
+Voice-over: Breaking Biology's own recording (src/voiceover.aac), used as delivered.
+
+Fonts (SIL Open Font License 1.1, files and licences in fonts/):
+  Atma (Black Foundry) — the chalk handwriting: its letters are traced to single centre lines by tools/trace.py
+  Hind Siliguri (Indian Type Foundry) — subtitles
+
+Chalkboard engine: js/chalk.js, js/r2d.js, js/stage.js, js/post.js, js/props.js (copied) and js/app.js (adapted) come
+  from the "Chalkboard" style of Lemo-Opuscar by Lemomo (https://github.com/lemomo-ai/lemo-opuscar), MIT License
+  (LICENSE-engine-MIT.txt); changed for this film (no glow at the chalk front, green chalk stub, Bangla subtitles).
+  js/bn.js, js/film.js, tools/trace.py, tools/master.sh, tools/srt.py and mix.py were written for this film.
+
+Music: an original score played on sampled instruments (all CC0 1.0):
+  Samples (CC0): FreePats project (freepats.zenvoid.org), VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+Sound effects (chalk, wipe, panel, room tone) are synthesised in mix.py.
+Tools: Lemo-Opuscar render/sampler tools (MIT), headless Chromium, ffmpeg, faster-whisper (transcription of the voice for timing).
